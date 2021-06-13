@@ -3,7 +3,7 @@
 /* Создать массив из 10 чисел. Числа 0,2,4,6,8 и т.д.
 Двумя разными циклами перебрать масисив, увеличив каждый элемент на 1 */
 
-const arr = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18];
+// const arr = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18];
 
 // for (let i = 0; i < arr.length; i++) {
 //   arr[i]++;
@@ -18,7 +18,11 @@ const arr = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18];
 //   ar += 1;
 //   console.log(ar);
 // }
-
+////////////////////////
+// arr.forEach((element) => {
+//   console.log(++element);
+// });
+///////////////////
 /* Всплывающее окно. В нем нужно ввести число. Второе всплувающее окно. Вводим слово. К этому слову нужно дописать в конец столько
 воскл. знаков, сколько в этом числе
 4
@@ -26,20 +30,19 @@ abc
 abc!!!!*/
 
 // const input1 = +prompt("Введите число");
-// const input2 = prompt("Введите слово:");
-// let inp = input2;
+// let input2 = prompt("Введите слово:");
 
-// function getExpr(input1, inp) {
-//   if (input1.isNaN()) {
+// function getExpr(input1, input2) {
+//   if (input1.isNaN) {
 //     throw new TypeError("Not a number");
 //   }
 //   const expr = "!";
 //   for (let i = 0; i < input1; i++) {
-//     inp += expr;
+//     input2 = input2.concat(expr);
 //   }
-//   return;
+//   return input2;
 // }
-// const res = getExpr(input1, inp);
+// const res = getExpr(input1, input2);
 // console.log(res);
 /*Создать мапу, в которой ключ - название города
 , а значение - численность населения млн
@@ -49,9 +52,10 @@ abc!!!!*/
 // map.set("Днепр", 10000);
 // map.set("Запорожье", 12000);
 // map.set("Львов", 11000);
+// let arr2 = [];
+// arr2 = Array.from(map.values());
+// let res = Math.max.apply(null, arr2);
 
-// for (const [city, value] of cities) {
-//   if(`${value}`)
-// }
+// console.log(res);
 
-event=>node=>myArray
+// event=>node=>myArray
