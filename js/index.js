@@ -10,14 +10,7 @@
 //   console.log(arr[i]);
 // }
 
-// arr.forEach(arr=>{
-//   console.log(arr);
-// })
 
-// for (let ar of arr) {
-//   ar += 1;
-//   console.log(ar);
-// }
 ////////////////////////
 // arr.forEach((element) => {
 //   console.log(++element);
