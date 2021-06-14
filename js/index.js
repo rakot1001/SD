@@ -10,7 +10,6 @@
 //   console.log(arr[i]);
 // }
 
-
 ////////////////////////
 // arr.forEach((element) => {
 //   console.log(++element);
@@ -44,11 +43,28 @@ abc!!!!*/
 // const map = new Map();
 // map.set("Днепр", 10000);
 // map.set("Запорожье", 12000);
-// map.set("Львов", 11000);
+// map.set("Львов", 10000);
+// map.set("ДНР", 16000);
+// map.set("ЛНР", 17000);
+// map.set("УНР", 200000);
+
+// let maxValue = 0;
+// let cityName = "";
+
+// for (const [key, value] of map) {
+//   if (value > maxValue) {
+//     maxValue = value;
+//     cityName = key;
+//   }
+// }
+
+// console.log(maxValue,cityName);
+
+
+//////////
 // let arr2 = [];
 // arr2 = Array.from(map.values());
-// let res = Math.max.apply(null, arr2);
-
+// let res = Math.max(...arr2);
 // console.log(res);
 
 // event=>node=>myArray
